@@ -1,0 +1,12 @@
+# CircleCI Config -- Shiji API Framework Tests
+machine:
+    timezone:
+        UTC
+    python:
+        version: 2.7.9
+dependencies:
+    override:
+        - sudo apt-get install xmlstarlet
+test:
+    override:
+        - make test_ci ROOT_DIR=/home/ubuntu/shiji_api

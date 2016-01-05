@@ -1,0 +1,9 @@
+_trial_temp
+*.pyc
+.DS_Store
+build
+dist
+*.egg-info
+.coverage
+venv
+trial
