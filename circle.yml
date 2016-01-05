@@ -9,4 +9,4 @@ dependencies:
         - sudo apt-get install xmlstarlet
 test:
     override:
-        - make test_ci ROOT_DIR=/home/ubuntu/shiji_api
+        - make test_ci ROOT_DIR=/home/ubuntu/shiji

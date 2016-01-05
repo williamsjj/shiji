@@ -5,7 +5,7 @@ _Shiji means "commands" in Japanese. It's a JSON-focused, asynchronous framework
 
 We &hearts; [Twisted](https://twistedmatrix.com).
 
-[![Circle CI](https://circleci.com/gh/williamsjj/shiji_api.svg?style=svg&circle-token=4fd028a808d8afff7a8c3269749db0cfe77f3205)](https://circleci.com/gh/williamsjj/shiji_api)
+[![Circle CI](https://circleci.com/gh/williamsjj/shiji.svg?style=svg)](https://circleci.com/gh/williamsjj/shiji)
 
 ## Low-down ##
 
@@ -19,7 +19,7 @@ Shiji plays nice with [virtualenv](https://virtualenv.readthedocs.org/en/latest/
 
 First install ```shiji``` from PyPI:
 
-```pip install shiji_api```
+```pip install shiji```
 
 Next generate the stub files and structure for your first API version:
 
@@ -784,6 +784,6 @@ The options of the API's config section are passed as a dictionary into the API'
 
 ## License ##
 
-Shiji is licensed under the MIT License. Please see [LICENSE.md](./shiji_api/blob/master/LICENSE.md) in the project directory for the full license terms.
+Shiji is licensed under the MIT License. Please see [LICENSE.md](./shiji/blob/master/LICENSE.md) in the project directory for the full license terms.
 
 &copy;2015 DigiTar Inc.
