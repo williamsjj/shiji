@@ -389,7 +389,7 @@ The other benefit from defining your errors using subclasses of ```webapi.APIErr
 
 ### Custom API Configuration ###
 
-Every Shiji API module has ```config.py``` shared by all of that API's versions. It defines a single method ```validate_config``` that supplies a dictionary of options for that API taken from ```shijid.conf``` and is expected to return a finalized dictionary of API options:
+Every Shiji API module has ```config.py``` shared by all of that API's versions. It defines a single method ```validate_config``` that is supplied a dictionary of options for that API taken from ```shijid.conf``` and is expected to return a finalized dictionary of the API's options:
 
 ```python
 def validate_config(config_dict):
