@@ -784,6 +784,6 @@ The options of the API's config section are passed as a dictionary into the API'
 
 ## License ##
 
-Shiji is licensed under the MIT License. Please see [LICENSE.md](./shiji/blob/master/LICENSE.md) in the project directory for the full license terms.
+Shiji is licensed under the MIT License. Please see [LICENSE.md](./LICENSE.md) in the project directory for the full license terms.
 
 &copy;2015 DigiTar Inc.
