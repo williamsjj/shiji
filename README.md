@@ -439,7 +439,7 @@ You'll likely find yourself implementing result paging on a regular basis, so Sh
 * ```default_page_len``` specifies the value of ```request.args["page_len"][0]``` if ```page_len``` is not provided in the URL query string.
 * ```max_page_len``` specifies the maximum value that is allowed for ```page_len```. (```page_len``` is the number of entries you will return per-page).
 
-When you use ```@webapi.paged_results```, it will check to see if ```page``` and ```page_len` URL query string arguments are present and then:
+When you use ```@webapi.paged_results```, it will check to see if ```page``` and ```page_len``` URL query string arguments are present and then:
 
 * Validate ```page``` and ```page_len``` are valid integers.
 * Validate ```page``` is &gt; -1.
