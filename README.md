@@ -435,8 +435,8 @@ You'll likely find yourself implementing result paging on a regular basis, so Sh
 @webapi.paged_results(default_page=0,default_page_len=200,max_page_len=500)
 ```
 
-* ```default_page``` specifies the value of ```request.args["page"][0]``` if ```page``` is not provide in the URL query string.
-* ```default_page_len``` specifies the value of ```request.args["page_len"][0]``` if ```page_len``` is not provide in the URL query string.
+* ```default_page``` specifies the value of ```request.args["page"][0]``` if ```page``` is not provided in the URL query string.
+* ```default_page_len``` specifies the value of ```request.args["page_len"][0]``` if ```page_len``` is not provided in the URL query string.
 * ```max_page_len``` specifies the maximum value that is allowed for ```page_len```. (```page_len``` is the number of entries you will return per-page).
 
 When you use ```@webapi.paged_results```, it will check to see if ```page``` and ```page_len` URL query string arguments are present and then:
