@@ -3,7 +3,7 @@
 #
 SHELL=/bin/bash
 PROJECT=Shiji API
-ROOT_DIR=/git/shiji_api
+ROOT_DIR=/git/shiji
 COPYRIGHT=(C)2015 DigiTar, All Rights Reserved
 AUTHOR_EMAIL=williamsjj@digitar.com
 
