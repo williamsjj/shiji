@@ -7,13 +7,13 @@
 #
 #
 ####################################################################
-# (C)2015 DigiTar Inc.
+# (C)2016 DigiTar Inc.
 # Licensed under the MIT License.
 ####################################################################
 
 from setuptools import setup, find_packages
  
-version = '1.0.14'
+version = '1.0.15'
  
 setup(name='shiji',
       version=version,
@@ -26,7 +26,6 @@ setup(name='shiji',
       url='https://github.com/williamsjj/shiji',
       license='MIT License',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests', 'old*']),
-      include_package_data=True,
       package_data={'' : ['*.mako','utilities/utility_templates/*']},
       zip_safe=False,
       install_requires=["Twisted>=15.0",
